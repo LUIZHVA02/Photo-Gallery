@@ -1,69 +1,79 @@
 *{
-    margin: 0;
+    margin: 0px ;
     padding: 0;
     box-sizing: border-box;
+
 }
 body{
-    height: 100vh;
+    height: 500px;
     display: grid;
     grid-template-areas: 
-        "header"
-        "main nav2 nav"
-        "main nav2 nav"
-        "footer nav3 nav";
-    grid-template-rows: 100px 1fr 50px;
-    grid-template-columns: 90% 8%;
+        ".Header-container"
+        ".Seventh-container .First-container .Second-container"
+        ".Seventh-container .Third-container .Fourth-container"
+        ".Nineth-container .Fifth-container .Sixth-container";
     padding: 32px;
-    gap: 32px;
-}
-nav{
-    grid-area: nav;
-    background-color: yellow;
-    display: grid;
-    overflow: hidden;
-    grid-template-rows: 125px 1fr 125px;
+    gap: 10px;
 }
 
-.icon-container{
-    background-color: aqua;
+nav2023{
+    height: 250px;
+    width: 250px;
 }
-
-header{
-    grid-area: header;
-    background-color: green;
-    display: grid;
-    place-items: end;
-}
-.links-container{
-    background-color: yellow;
-    width: 210px;
-    height: 100px;
-}
-main{
+.Seventh-container{
     grid-area: main;
     background-color: red;
-    display: grid;
-    grid-template-areas: 
-        "title title"
-        "texts nothing";
-    gap: 10px;
-    grid-template-rows: 100px;
-    grid-template-columns: 585px;
+    width: 100px;
+    height: 100px;
 }
-
-.title-container{
+.Header-container{
     grid-area: title;
-    background-color: silver;
+    background-color: orange;
+    width: 1080px;
+    height: 100px;
 }
-.texts-container{
-    grid-area:posts;
+
+.First-container{
+    grid-area: img1;
+    background-color: green;
+    width: 120px;
+    height: 120px;
+}
+
+.Second-container{
+    grid-area: img2;
     background-color: yellow;
+    width: 120px;
+    height: 120px;
 }
-.nothing{
-
+.Third-container{
+    grid-area: Img3;
+    background-color: black;
+    width: 120px;
+    height: 120px;
+}
+.Fourth-container{
+    grid-area:Img4;
+    background-color: navy;
+    width: 120px;
+    height: 120px;
+}
+.Fifth-container{
+    grid-area:Img5;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+.Sixth-container{
+    grid-area:Img6;
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
 }
 
-footer{
+.Eighth-container{
     grid-area: footer;
-    background-color: blue;
+    background-color: hotpink;
+    width: 150px;
+    height: 100px;
 }
