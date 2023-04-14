@@ -8,70 +8,81 @@ body{
     height: 500px;
     display: grid;
     grid-template-areas: 
-        ".Header-container"
-        ".Seventh-container .First-container .Second-container"
-        ".Seventh-container .Third-container .Fourth-container"
-        ".Nineth-container .Fifth-container .Sixth-container";
+        ".Header"
+        ".Seventh nav1"
+        "footer";
     padding: 32px;
     gap: 10px;
 }
 
-nav2023{
+nav1{
     height: 250px;
     width: 250px;
+    grid-template-areas: 
+    ".FirstN .SecondN"
+    ".ThirdN .FourthN";
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 120px 120px;
 }
-.Seventh-container{
-    grid-area: main;
-    background-color: red;
-    width: 100px;
-    height: 100px;
-}
-.Header-container{
-    grid-area: title;
+
+.Header{
+    grid-area: ".Header";
     background-color: orange;
     width: 1080px;
     height: 100px;
+    text-align: center;
 }
 
-.First-container{
-    grid-area: img1;
+.FirstN{
+    grid-area: ".FirstN";
     background-color: green;
     width: 120px;
     height: 120px;
 }
 
-.Second-container{
+.SecondN{
     grid-area: img2;
     background-color: yellow;
     width: 120px;
     height: 120px;
 }
-.Third-container{
+
+.ThirdN{
     grid-area: Img3;
     background-color: black;
     width: 120px;
     height: 120px;
 }
-.Fourth-container{
+
+.FourthN{
     grid-area:Img4;
     background-color: navy;
     width: 120px;
     height: 120px;
 }
-.Fifth-container{
+
+.FifthM{
     grid-area:Img5;
     background-color: purple;
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
 }
-.Sixth-container{
+
+.SixthF{
     grid-area:Img6;
     background-color: lightgreen;
     width: 100px;
     height: 100px;
 }
 
-.Eighth-container{
+.SeventhF{
+    grid-area: main;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.EighthF{
     grid-area: footer;
     background-color: hotpink;
     width: 150px;
