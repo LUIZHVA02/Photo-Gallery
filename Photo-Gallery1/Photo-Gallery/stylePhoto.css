@@ -51,45 +51,45 @@ h1{
 }
 .foto:nth-child(1){
     grid-area: f1;
-    background-image: url(./O_Ronin_1.jpg);
+    background-image: url(./img-01/Azaleias.jpg);
     background-position: top;
 }
 .foto:nth-child(2){
     grid-area: f2;
-    background-image: url(./O_Ronin_2.jpg);
-    background-position: top;
+    background-image: url(./img-01/Gerbera.jpg);
+    background-position: center;
 
 }
 .foto:nth-child(3){
     grid-area: f3;
-    background-image: url(./O_Ronin_3.jpg);
-    background-position: top;
+    background-image: url(./img-01/Girassol.jpeg);
+    background-position: center;
 }
 .foto:nth-child(4){
     grid-area: f4;
-    background-image: url(./O_Ronin_4.jpg);
-    background-position: top;
+    background-image: url(./img-01/Margarida.jpg);
+    background-position: center;
 }
 .foto:nth-child(5){
     grid-area: f5;
-    background-image: url(./O_Ronin_5.jpg);
-    background-position: top;
+    background-image: url(./img-01/Narciso.jpg);
+    background-position: center;
 }
 .foto:nth-child(6){
     grid-area: f6;
-    background-image: url(./O_Ronin_6.jpg);
-    background-position: top;
+    background-image: url(./img-01/Orquídeas.png);
+    background-position: center;
 }
 .foto:nth-child(7){
     grid-area: f7;
-    background-image: url(./O_Ronin_7.jpg);
-    background-position: top;
+    background-image: url(./img-01/Rosas.jpg);
+    background-position: center;
 
 }
 .foto:nth-child(8){
     grid-area: f8;
-    background-image: url(./O_Ronin_9.jpg);
-    background-position: top;
+    background-image: url(./img-01/Tulipas.jpg);
+    background-position: center;
 }
 .foto:hover > .foto__info{
     transform: translateY(0%);
